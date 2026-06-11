@@ -783,6 +783,8 @@ def main():
     print("\nUploading CSV to OneDrive...")
     upload_file_to_onedrive(MASTER_CSV)
 
+    update_manual_tracker_from_cisco(df)
+
     print("\nPreview:")
     preview_columns = [
         "Market",
