@@ -61,6 +61,7 @@ def validate_environment():
         "MS_CLIENT_SECRET": MS_CLIENT_SECRET,
         "ONEDRIVE_USER_ID": ONEDRIVE_USER_ID,
         "ONEDRIVE_FILE_PATH": ONEDRIVE_FILE_PATH,
+        "MANUAL_TRACKER_FILE_PATH": MANUAL_TRACKER_FILE_PATH,
     }
 
     missing = [key for key, value in required.items() if not value]
