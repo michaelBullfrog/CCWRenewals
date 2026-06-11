@@ -42,8 +42,8 @@ PAGE_SIZE = int(os.getenv("PAGE_SIZE", "100"))
 MAX_PAGES_PER_WINDOW = int(os.getenv("MAX_PAGES_PER_WINDOW", "1"))
 
 OUTPUT_FOLDER = Path("cisco_exports")
-MASTER_CSV = OUTPUT_FOLDER / "cisco_master_subscription_renewals_US_CANADA_NO_DISTI_FILTER.csv"
-RAW_JSON = OUTPUT_FOLDER / "raw_master_subscription_response_US_CANADA_NO_DISTI_FILTER.json"
+MASTER_CSV = OUTPUT_FOLDER / "cisco_master_subscription_renewals_all_statuses.csv"
+RAW_JSON = OUTPUT_FOLDER / "raw_master_subscription_response_all_statuses.json"
 
 
 # =========================
