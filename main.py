@@ -54,7 +54,7 @@ POWERBI_DATASET_ID = os.getenv("POWERBI_DATASET_ID")
 
 # Optional overrides
 MASTER_START_DATE = os.getenv("MASTER_START_DATE", "2020-01-01")
-WINDOW_DAYS = int(os.getenv("WINDOW_DAYS", "7"))
+WINDOW_DAYS = int(os.getenv("WINDOW_DAYS", "15"))
 PAGE_SIZE = int(os.getenv("PAGE_SIZE", "100"))
 MAX_PAGES_PER_WINDOW = int(os.getenv("MAX_PAGES_PER_WINDOW", "1"))
 
